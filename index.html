@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedTape - Hyper-Street Series</title>
+    <meta name="description" content="RedTape Hyper-Street Sneakers. Cyberpunk aesthetic, magnetic comfort.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Outfit:wght@300;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+
+    <nav class="navbar">
+        <div class="logo">RedTape // <span class="accent-text">X</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#shop">Shop</a></li>
+        </ul>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">NEXT_GEN <br> <span class="glitch-text" data-text="WALKER">WALKER</span></h1>
+            <p class="hero-subtitle">Step into the future of street-wear comfort.</p>
+            <button class="magnetic-btn" id="shop-now-btn">
+                <span class="btn-text">SHOP NOW</span>
+            </button>
+
+            <div class="color-swatcher">
+                <p>SELECT COLORWAY</p>
+                <div class="swatches">
+                    <button class="swatch red active" data-color="red" data-color-value="#e63946"></button>
+                    <button class="swatch blue" data-color="blue" data-color-value="#00b4d8"></button>
+                    <button class="swatch green" data-color="green" data-color-value="#80ed99"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="circle-bg"></div>
+            <img src="./assets/sneaker-red.png" alt="RedTape Sneaker" class="floating-shoe" id="main-shoe">
+        </div>
+    </header>
+
+    <section id="shop" class="shop-section">
+        <h2 class="section-title">THE COLLECTION</h2>
+        <div class="shop-grid">
+            <div class="product-card hidden">
+                <div class="card-image">
+                    <img src="./assets/sneaker-red.png" alt="RedTape Red Variant">
+                </div>
+                <div class="card-info">
+                    <h3>BLAZE // V1</h3>
+                    <p class="price">₹15,999</p>
+                    <button class="buy-btn">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="product-card hidden">
+                <div class="card-image">
+                    <img src="./assets/sneaker-blue.png" alt="RedTape Blue Variant">
+                </div>
+                <div class="card-info">
+                    <h3>CYBER // V2</h3>
+                    <p class="price">₹15,999</p>
+                    <button class="buy-btn">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="product-card hidden">
+                <div class="card-image">
+                    <img src="./assets/sneaker-green.png" alt="RedTape Green Variant">
+                </div>
+                <div class="card-info">
+                    <h3>VENOM // V3</h3>
+                    <p class="price">₹15,999</p>
+                    <button class="buy-btn">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features-section">
+        <h2 class="section-title">ENGINEERING</h2>
+        <div class="features-grid">
+            <div class="feature-card hidden">
+                <h3>01 // LIGHTWEIGHT</h3>
+                <p>Anti-gravity soles featherweight construction for maximum agility.</p>
+            </div>
+            <div class="feature-card hidden">
+                <h3>02 // BREATHABLE</h3>
+                <p>Nanomesh upper material ensures constant air circulation.</p>
+            </div>
+            <div class="feature-card hidden">
+                <h3>03 // DURABLE</h3>
+                <p>Reinforced polymer structure withstands urban decay.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 RedTape. All rights reserved.</p>
+        <p class="footer-note">Designed in Neo-Tokyo.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
